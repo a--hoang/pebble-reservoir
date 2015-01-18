@@ -87,10 +87,9 @@ static void update_text() {
 }
 
 static void update_stats_text() {
-  static char body_text[80];
+  static char body_text[110];
   //aho fix
-  float gal = total_drinks*8/128;
-  snprintf(body_text, sizeof(body_text), "Total Drinks: %u \n Streak: %u \n Best Streak: %u \n", total_drinks, streak, best_streak);
+  snprintf(body_text, sizeof(body_text), "Total Drinks: %u \n Streak: %u \n Best Streak: %u \n Built with love by \n A Hoang and E Tian \n PennApps w2015", total_drinks, streak, best_streak);
   text_layer_set_text(profile_stats_layer, body_text);
 }
 
@@ -322,7 +321,7 @@ static void profile_load(Window *window) {
   text_layer_set_text_alignment(profile_layer, GTextAlignmentCenter);
   layer_add_child(window_layer, text_layer_get_layer(profile_layer));
   
-  profile_stats_layer = text_layer_create((GRect) { .origin = { 4, 40 }, .size = { bounds.size.w, 90 } });
+  profile_stats_layer = text_layer_create((GRect) { .origin = { 4, 30 }, .size = { bounds.size.w, 110 } });
   text_layer_set_font(profile_stats_layer, fonts_get_system_font(FONT_KEY_GOTHIC_18));
   text_layer_set_background_color(profile_stats_layer, GColorClear);
   layer_add_child(window_layer, text_layer_get_layer(profile_stats_layer));

@@ -1,0 +1,85 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "ahoang18@bu.edu",
+    "longName": "Reservoir",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "images/toilet.png",
+                "name": "TOILET_CUP",
+                "type": "png"
+            },
+            {
+                "file": "images/select.png",
+                "name": "SELECT",
+                "type": "png"
+            },
+            {
+                "file": "images/win.png",
+                "name": "CUP8",
+                "type": "png"
+            },
+            {
+                "file": "images/7cup.png",
+                "name": "CUP7",
+                "type": "png"
+            },
+            {
+                "file": "images/6cup.png",
+                "name": "CUP6",
+                "type": "png"
+            },
+            {
+                "file": "images/5cup.png",
+                "name": "CUP5",
+                "type": "png"
+            },
+            {
+                "file": "images/4cup.png",
+                "name": "CUP4",
+                "type": "png"
+            },
+            {
+                "file": "images/3cup.png",
+                "name": "CUP3",
+                "type": "png"
+            },
+            {
+                "file": "images/2cup.png",
+                "name": "CUP2",
+                "type": "png"
+            },
+            {
+                "file": "images/1cup.png",
+                "name": "CUP1",
+                "type": "png"
+            },
+            {
+                "file": "images/0cup.png",
+                "name": "CUP",
+                "type": "png"
+            },
+            {
+                "file": "images/action_icon_minus.png",
+                "name": "IMAGE_ACTION_ICON_MINUS",
+                "type": "png"
+            },
+            {
+                "file": "images/action_icon_plus.png",
+                "name": "IMAGE_ACTION_ICON_PLUS",
+                "type": "png"
+            }
+        ]
+    },
+    "shortName": "Reservoir",
+    "uuid": "7addd9bc-aeb2-4a0e-836f-11c69bf00501",
+    "versionCode": 1,
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": false
+    }
+}
